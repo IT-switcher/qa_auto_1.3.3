@@ -1,8 +1,8 @@
 ### Commands to check history
-`git log --gragh`
-
-`git log --oneline`
+``git log --graph --all --oneline``
 
 `git reflog`
 
 `git status`
+
+
