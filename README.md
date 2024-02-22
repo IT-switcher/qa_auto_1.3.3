@@ -7,4 +7,4 @@
 **git log** - track logs
 **git pull** - pulls data from a remote repository
 **git push** - adds updated data to the remote repository
-**git pull origin main** - pulls data from a remote repository
+**git pull origin main** - pulls data from a remote repository!
