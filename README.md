@@ -1,5 +1,5 @@
 
-# Git is a version control system.
+# 1.3.3 - Git is a version control system.
 ## Basic commands for working with git:
 **git status** - find out the status of work on the code
 **git add** - add tracking files
