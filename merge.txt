@@ -1,0 +1,13 @@
+Git Merge:
+
+git merge is a command that helps you integrate changes from another branch into your current branch. 
+It combines the content of your current and target branches, 
+and creates a new merge commit. 
+This preserves the development context and history of both branches, 
+but the commit history can become complex and hard to read, 
+especially when many branches are involved.
+
+git merge can be used with the --no-ff flag to prevent a fast-forward merge, 
+which ensures a new commit is created even if it's not necessary, 
+thus preserving the information that a merge occurred. 
+Another useful flag is --squash, which combines all changes into a single new commit on the current branch.

@@ -1,0 +1,13 @@
+Git Rebase:
+
+git rebase is a command designed to integrate changes from one branch into another. 
+Unlike git merge, which pulls the content of the target branch into the current branch, 
+git rebase transfers the changes from the current branch onto the target branch. 
+It creates a new "base" for your current branch by starting on the target branch 
+and replaying the commits from your current branch on top of it. 
+This results in a linear, cleaner commit history. 
+However, it may rewrite the commit history, so it's generally not recommended for shared or public branches.
+
+git rebase can be used with the -i or --interactive flag for an interactive rebase, 
+which allows you to alter individual commits in the process. 
+This is useful for cleaning up commit history by squashing, reordering, modifying, or dropping commits.
