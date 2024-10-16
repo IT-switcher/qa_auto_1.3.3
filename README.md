@@ -1,1 +1,6 @@
-# This repo will have all info about Git that we learned
+# Интересный факт о GIT
+
+Линус Торвальдс, создавший Git, выбрал это имя не случайно. Торвальдс так саркастически отозвался о выбранном им названии git (что на английском сленге означает «мерзавец»):
+
+	"I'm an egotistical bastard, so I name all my projects after myself. First Linux, now git." 
+ *Перевод: "Я эгоистичный ублюдок, и поэтому называю все свои проекты в честь себя. Сначала Linux, теперь git."*
