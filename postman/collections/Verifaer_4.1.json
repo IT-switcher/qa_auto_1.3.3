@@ -171,7 +171,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"text\": \"{{$randomWords}}\",\r\n  \"answer\": \"{{$randomWord}}\",\r\n  \"title\": \"{{$randomWord}}\"\r\n}",
+							"raw": "{\r\n  \"text\": \"{{text}}\",\r\n  \"answer\": \"{{answer}}\",\r\n  \"title\": \"{{title}}\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
