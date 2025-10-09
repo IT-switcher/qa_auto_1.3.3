@@ -1,0 +1,255 @@
+{
+	"id": "28ebb2dd-d5ae-4201-b904-0c29c0a006c4",
+	"name": "Verifaer_4.1",
+	"timestamp": "2025-10-09T10:31:14.139Z",
+	"collection_id": "40916907-06f3e8e9-9d6a-4d9e-bc21-aee7d86bf52e",
+	"folder_id": 0,
+	"environment_id": "40916907-c81f1362-181f-4cec-be4e-a7f06e61cc06",
+	"totalPass": 18,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-09T10:30:43.577Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "a619a93d-a9dd-4a97-b567-41c3d320fa1c",
+			"name": "Register new user",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/register",
+			"time": 190,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				22443,
+				189,
+				196,
+				196,
+				193,
+				194,
+				190
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "284bc56f-db8e-42b9-b6e9-0bfd83cf204d",
+			"name": "No possible register",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/api/register",
+			"time": 104,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				129,
+				113,
+				117,
+				103,
+				108,
+				119,
+				104
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "5763809b-614c-41b0-a393-5c4126b49a34",
+			"name": "create task",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks",
+			"time": 107,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 6,
+					"fail": 1
+				}
+			},
+			"times": [
+				145,
+				108,
+				107,
+				116,
+				110,
+				121,
+				107
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "3cd6d093-7763-47a6-b698-35f30487e3da",
+			"name": "change task",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks/157556",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 1
+				}
+			},
+			"times": [
+				131,
+				114,
+				117,
+				113,
+				111,
+				109,
+				110
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "620a5c45-36c2-459a-b844-cad7b386bf98",
+			"name": "delete task",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks/157556",
+			"time": 106,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 6,
+					"fail": 1
+				}
+			},
+			"times": [
+				115,
+				108,
+				108,
+				107,
+				106,
+				104,
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": false
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 7,
+	"totalTime": 26767,
+	"collection": {
+		"requests": [
+			{
+				"id": "a619a93d-a9dd-4a97-b567-41c3d320fa1c",
+				"method": "POST"
+			},
+			{
+				"id": "284bc56f-db8e-42b9-b6e9-0bfd83cf204d",
+				"method": "POST"
+			},
+			{
+				"id": "5763809b-614c-41b0-a393-5c4126b49a34",
+				"method": "POST"
+			},
+			{
+				"id": "3cd6d093-7763-47a6-b698-35f30487e3da",
+				"method": "PATCH"
+			},
+			{
+				"id": "620a5c45-36c2-459a-b844-cad7b386bf98",
+				"method": "DELETE"
+			}
+		]
+	}
+}
